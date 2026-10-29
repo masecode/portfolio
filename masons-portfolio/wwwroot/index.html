@@ -2,10 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mason's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Sora:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Mason's Portfolio</h1>
-<h2>This is currently a work in progress. Please come back another time.</h2>
+<header class="topbar">
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h1 class="name">Mason Doti</h1>
+    <p class="tagline">I am a Computer Systems Technology student. I build applications and run the systems they are on.</p>
+
+    <section class="terminal">
+        <div class="terminal-bar"></div>
+        <div class="terminal-body">
+            <div class="term-block">
+                <div class="term-prompt">mason@portfolio ~ &gt; mason --techstack</div>
+                <div class="term-output">[ "C#", "Java", "JavaScript", "Python" ]</div>
+            </div>
+            <div class="term-block">
+                <div class="term-prompt">mason@portfolio ~ &gt; mason --interests</div>
+                <div class="term-output">[ "Snowboarding", "Homelabbing", "Programming" ]</div>
+            </div>
+            <div class="term-block">
+                <div class="term-prompt">mason@portfolio ~ &gt; mason --education</div>
+                <div class="term-output">"Computer Systems Technology - Saskatchewan Polytechnic"</div>
+            </div>
+            <div class="term-block">
+                <div class="term-prompt">mason@portfolio ~ &gt; mason --contact-page</div>
+                <div class="term-output">"<a href="#">Contact</a>"</div>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
