@@ -1,0 +1,20 @@
+{
+  "slug": "redeem-overlay",
+  "title": "Twitch Redeem Overlay",
+  "summary": "Fast Twitch channel points timer",
+  "description": [
+    "My friend, who streams on Twitch in their free time, wanted a countdown timer for their stream. They wanted something that would work natively on Linux, and would only do one job. That job would be listening to channel points being redeemed, and to start the timer.",
+    "I decided to help them and take on this project. I am the sole developer of this project. I would only ask my friend for what they needed in this program. I planned to build a very simple, fast, and responsive timer that would only count down if points were redeemed from Twitch. ",
+    "I wanted to learn a new language at the time, since all I was doing was learning and working in Java. I picked Rust, for its fast and native performance. It is also compatible with Linux, so it makes it the perfect fit for this project. I hit many problems in this project that took a long time for me to learn and fix myself. One of them was learning how OAuth works with Twitch's API, like working with authorization links, saving, loading, and refreshing tokens for seamless persistence, and working with JSON from their API. Another problem was working with Rust's memory-safety model in their language. I had to learn borrowing and taking variables, macros, extensive error handling with Ok() and Err(), and much more.",
+    "This project took me a long time, but it came out functional, fast, and easy to use. You just put in your Twitch credientals in an environment file, configure it in a webpage hosted locally, and you just let it run while you stream. My friend really enjoys it, and they use it every time they stream. I learned tons from this project, like the Rust programming language and memory safety, the OAuth authentication system, and working with APIs over the internet."
+  ],
+  "repoUrl": "https://github.com/masecode/redeem-overlay",
+  "attributes": {
+    "languages": ["Rust", "HTML"],
+    "startDate": "2026-06-26",
+    "endDate": "2026-08-13",
+    "difficulty": "Hard"
+  },
+  "cardImageUrl": "/images/redeem-overlay-card.png",
+  "detailImageUrl": "/images/redeem-overlay-hero.png"
+}

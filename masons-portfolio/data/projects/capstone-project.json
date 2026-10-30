@@ -1,0 +1,20 @@
+{
+  "slug": "capstone-project",
+  "title": "Air Quality Monitor Capstone",
+  "summary": "An ESP32/BME688 air quality monitor capstone project",
+  "description": [
+    "This project is my capstone project from Saskatchewan Polytechnic. The problem we are looking to solve is how businesses want to have a quick and easy solution to monitor air quality, while having a functional and neat dashboard.",
+    "Our team decided to build this air quality monitor to solve this problem. Our team was formed, and my role is Team Lead, which my responsibilities include: planning ahead on what each teammate should do, making sure each teammate is on top of their work, helping each team member with whatever they need, and being the person to speak to anyone who has inquiries of our project.",
+    "We are building this air quality monitor with an ESP32 controller and BME688 air quality monitor, which has many modern features like machine learning. So far, our biggest hurdle was planning a month ahead, so that our client is informed of our next decisions moving forward. Another challenge is researching and learning the hardware and software required to take on this project.",
+    "So far, we have completed the planning and learning stage of this project. We are now working on a prototype of this monitor to show to our client, with just basic air quality numbers to show the very basic functionality of the monitor."
+  ],
+  "repoUrl": null,
+  "attributes": {
+    "languages": ["C"],
+    "startDate": "2026-05-04",
+    "endDate": null,
+    "difficulty": "Medium"
+  },
+  "cardImageUrl": "/images/capstone-project-card.png",
+  "detailImageUrl": "/images/capstone-project-hero.png"
+}

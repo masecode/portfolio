@@ -1,0 +1,46 @@
+@page "/projects/{slug}"
+@model WebApplication2.Pages.Projects.ProjectDetailModel
+
+@{
+    ViewData["Title"] = Model.Project.Title;
+}
+@section Styles {
+    <link rel="stylesheet" href="/styles/project-detail.css">
+}
+
+<html lang="en">
+<main>
+    <h1 class="detailed-project-title">@Model.Project.Title</h1>
+    <div class="detail">
+        <div class="detail-paragraphs">
+            @foreach (var para in Model.Project.Description)
+            {
+                <p>@para</p>
+                <br/>
+            }
+        </div>
+        <aside class="detail-side">
+            <div class="detail-project-image">
+                <img src="@Model.Project.DetailImageURL" alt="@Model.Project.Summary">
+            </div>
+            <div class="detail-attributes">
+                <p><strong>Languages</strong>:
+                    [
+                    @foreach (var lang in Model.Project.Attributes.Languages)
+                    {
+                        <span>"@lang" </span>
+                    }
+                    ]
+                </p>
+                <p>Timeline: @Model.Project.Attributes.StartDate?.ToString("MMM yyyy") - @(Model.Project.Attributes.EndDate?.ToString("MMM yyyy") ?? "present")</p>
+                <p>Difficulty: @Model.Project.Attributes.Difficulty</p>
+                @if (Model.Project.RepoUrl != null)
+                {
+                    <a href="@Model.Project.RepoUrl">Source Code</a>
+                }
+            </div>
+        </aside>
+    </div>
+</main>
+</html>
+

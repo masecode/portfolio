@@ -1,0 +1,37 @@
+main {
+    padding: 10px;
+}
+.detail {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+    min-height: 100vh;
+}
+
+.detailed-project-title {
+    color: #cba6f7;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: var(--space-lg);
+}
+.detail-paragraphs {
+    color: var(--text);
+    font-size: 30px;
+    line-height: 1.5;
+}
+.detail-attributes {
+    color: #a6adc8;
+    font-size: 30px;
+}
+.detail-attributes a {
+    color: #89b4fa;
+    text-decoration: none;
+}
+.detail-attributes a:hover {
+    color: #74c7ec;
+    text-decoration: none;
+}
+.detail-side img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+   
+}

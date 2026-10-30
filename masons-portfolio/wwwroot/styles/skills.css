@@ -1,0 +1,49 @@
+* {
+    list-style-type: none;
+}
+
+main {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #89b4fa;
+}
+a:hover {
+    text-decoration: none;
+    color: #74c7ec;
+}
+
+
+.skills-header {
+    text-align: center;
+    font-size: 35px;
+}
+.technical-skills-header {
+    font-size: 30px;
+    padding-bottom: var(--space-sm)
+}
+.soft-skills-header {
+    font-size: 30px;
+    padding-bottom: var(--space-sm)
+}
+.education-header {
+    font-size: 30px;
+    padding-bottom: var(--space-sm)
+}
+.technical-skills-rows {
+    font-size: 25px;
+    line-height: 2;
+    padding-bottom: var(--space-md)
+}
+.core-skills-rows {
+    font-size: 25px;
+    line-height: 2;
+    padding-bottom: var(--space-md)
+}
+.education-row {
+    font-size: 25px;
+    line-height: 2;
+    padding-bottom: var(--space-md)
+}

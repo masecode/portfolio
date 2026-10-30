@@ -1,0 +1,20 @@
+{
+  "slug": "square-social-db",
+  "title": "Square Social Media Database",
+  "summary": "Terminal CLI Database Access program",
+  "description": [
+    "This project started as an open-ended academic project. What we noticed on the internet and personal experience is that making raw SQL queries can be very tedious at times, especially for people who are very new to databases.",
+    "We then decided that we will make a project about making CRUD operations to databases easier and just as effective. My role in this project was being the team lead/developer of the project, which means drafting and implementing many of the classes. Another role was assisting my team members in planning and implementing features.",
+    "Our class required us to use Java for this program, so that is what we used. For the database we used MySQL, which is one of the most common databases used today. We hit many problems when working on this project, specifically working with SQL queries. SQL injection can easily happen in a program like this, so we had to be careful with how we implemented our methods. This meant preparing every SQL query, and making sure that we only allow the user to input what is required, nothing more. Another problem we faced was how we were going to make sure sensitive data wasn't hard coded. External libraries were not allowed for this, so we had to implement our own environment file parser class.",
+    "This project resulted in a client-server multi-threaded TCP socket database program that allowed for basic CRUD operations to a database. I learned a lot from this project, like preparing SQL statements and queries, working with environment files and parsing them with Java's built-in libraries and methods, documenting code with doc comments, working with multiple threads and clients at once, practicing with TCP sockets and networking, and learning to make README.mds for my projects."
+  ],
+  "repoUrl": "https://github.com/masecode/square_social",
+  "attributes": {
+    "languages": ["Java"],
+    "startDate": "2026-05-06",
+    "endDate": "2026-06-02",
+    "difficulty": "Medium"
+  },
+  "cardImageUrl": "/images/square-social-db-card.png",
+  "detailImageUrl": "/images/square-social-db-hero.png"
+}

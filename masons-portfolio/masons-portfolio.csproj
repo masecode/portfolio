@@ -6,4 +6,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\images\close_button.svg" />
+      <None Include="wwwroot\images\maximize.svg" />
+      <None Include="wwwroot\images\minimize.svg" />
+    </ItemGroup>
+
 </Project>

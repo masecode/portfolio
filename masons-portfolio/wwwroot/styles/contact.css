@@ -1,0 +1,23 @@
+.contact-header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: var(--space-lg);
+}
+
+.contact-cards-list {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg)
+}
+.contact-card {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-md);
+    background-color: var(--panel);
+    border-radius: 8px;
+}

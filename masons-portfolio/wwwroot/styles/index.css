@@ -6,40 +6,8 @@
     --green: #A6E3A1;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
-    min-height: 100vh;
-}
-
-/* --- top nav --- */
-.topbar {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px 40px;
-}
-
-.nav {
-    display: flex;
-    gap: 33px;
-}
-
-.nav a {
-    color: var(--text);
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-/* --- hero --- */
+/* Title and tagline  */
 main {
     max-width: 860px;
     margin: 0 auto;
@@ -57,7 +25,7 @@ main {
     max-width: 640px;
 }
 
-/* --- terminal panel --- */
+/* Terminal */
 .terminal {
     margin-top: 70px;
     border-radius: 8px;
@@ -67,6 +35,23 @@ main {
 .terminal-bar {
     height: 24px;
     background: var(--bar);
+}
+
+.terminal-minimize {
+    width: 23px;
+    height: 23px;
+}
+.terminal-maximize {
+    width: 23px;
+    height: 23px;
+}
+.terminal-close {
+    height: 23px;
+    width: 23px;
+}
+.terminal-line {
+    margin-right: 4px;
+    float: right;
 }
 
 .terminal-body {
@@ -94,11 +79,18 @@ main {
 }
 
 .term-output a {
-    color: inherit;
-    text-decoration: underline;
+    color: #94e2d5;
+    text-decoration: none;
 }
 
-/* --- small screens --- */
+.story-goals {
+    padding-top: var(--space-lg);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
 @media (max-width: 640px) {
     .topbar {
         padding: 16px 20px;

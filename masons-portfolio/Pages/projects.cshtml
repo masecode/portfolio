@@ -1,0 +1,22 @@
+@page
+@model WebApplication2.wwwroot.projects_cshtml
+@{ ViewData["Title"] = "Projects";}
+@section Styles {
+    <link rel="stylesheet" href="/styles/projects.css">
+}
+    <h1 class="projects-header">Projects</h1>
+    <div class="projects-cards">
+        @foreach (var p in Model.Projects)
+        {
+            <article class="single-project">
+                <div class="card-image">
+                    <img src="@p.CardImageUrl" alt="@p.Title">
+                </div>
+                <div class="card-text">
+                    <h2>@p.Title</h2>
+                    <p>@p.Summary</p>
+                    <a href="/projects/@p.Slug">See More</a>
+                </div>
+            </article>
+        }
+    </div>
